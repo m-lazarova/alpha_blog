@@ -1,7 +1,15 @@
-<h1>
-	This is Home page
-</h1>
-<p>
-	<%= link_to 'About page', about_path %>
-</p>
-<%= link_to 'Articles page', articles_path %>
+<div class="container" id="home-container">
+	<div class="jumbotron text-center">
+		<h1 class="display-4">This is the Home Page!</h1>
+		<p id="jumbo-p"><%= link_to 'About page', about_path %> | <%= link_to 'Articles page', articles_path %></p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	</div>
+</div>
+
+
+
+<footer id="sticky-footer" class="py-4 bg-dark text-white">
+	<div class="container text-center">
+		<small>Copyright &copy; Your website</small>
+	</div>
+</footer>

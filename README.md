@@ -1,25 +1,9 @@
-# README
+#Alpha Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running...
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# alpha_blog
+The main goals of this projects were:
+- to act as an introduction to Ruby and the Rails framework
+- to understand the MVC architecture in Rails by building a demo blog app with users, articles and categories and the associations between them
+- learn more about authentication and authorisation systems
+- learn how to write automation tests for integration and unit
+- generate and run migrations
+- style the Rails application using Bootstrap and CSS
